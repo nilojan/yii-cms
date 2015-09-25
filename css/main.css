@@ -1,0 +1,274 @@
+
+/* ==|== Custom CSS ========================================
+   Please define your custom styles after this section.
+   ========================================================================== */
+
+.page-min-height{
+    min-height: 650px;*/
+    }
+.pulldown{
+    margin-top: 80px;
+}
+
+#switchform-container   {
+    position:absolute;
+    float:right;
+    top:60px;
+    right:0;
+    z-index:9999;
+    min-width:0;
+    width:8%;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==|== non-semantic helper classes ========================================
+   Please define your styles before this section.
+   ========================================================================== */
+
+/* For image replacement */
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u */
+.hidden { display: none !important; visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible { visibility: hidden; }
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}
+
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:right;
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	text-decoration:none;
+	line-height:32px;
+	padding:0 15px;
+
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:15px;
+	padding:0
+}
+
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#E6E6E6;
+	padding:0
+}
+
+#primary_nav_wrap ul li:last-child ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	right:0;
+	background:#E6E6E6;
+	padding:0;
+	left: inherit;
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px;
+	margin:0;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+
+.footerMenu
+{
+	list-style:none;
+	margin: 0;
+	padding:0;
+}
+
+.footerMenu li
+{
+	border:none;
+	padding:0;
+}
+/*  SLIDER */
+            /* jssor slider bullet navigator skin 03 css */
+            /*
+            .jssorb03 div           (normal)
+            .jssorb03 div:hover     (normal mouseover)
+            .jssorb03 .av           (active)
+            .jssorb03 .av:hover     (active mouseover)
+            .jssorb03 .dn           (mousedown)
+            */
+            .jssorb03 {
+                position: absolute;
+            }
+            .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+                position: absolute;
+                /* size of bullet elment */
+                width: 21px;
+                height: 21px;
+                text-align: center;
+                line-height: 21px;
+                color: white;
+                font-size: 12px;
+                background: url(../img/b03.png) no-repeat;
+                overflow: hidden;
+                cursor: pointer;
+            }
+            .jssorb03 div { background-position: -5px -4px; }
+            .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+            .jssorb03 .av { background-position: -65px -4px; }
+            .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+
+            /* jssor slider arrow navigator skin 03 css */
+            /*
+            .jssora03l                  (normal)
+            .jssora03r                  (normal)
+            .jssora03l:hover            (normal mouseover)
+            .jssora03r:hover            (normal mouseover)
+            .jssora03l.jssora03ldn      (mousedown)
+            .jssora03r.jssora03rdn      (mousedown)
+            */
+            .jssora03l, .jssora03r {
+                display: block;
+                position: absolute;
+                /* size of arrow element */
+                width: 55px;
+                height: 55px;
+                cursor: pointer;
+                background: url(../img/a14.png) no-repeat;
+                overflow: hidden;
+            }
+            .jssora03l { background-position: -3px -33px; }
+            .jssora03r { background-position: -63px -33px; }
+            .jssora03l:hover { background-position: -123px -33px; }
+            .jssora03r:hover { background-position: -183px -33px; }
+            .jssora03l.jssora03ldn { background-position: -243px -33px; }
+            .jssora03r.jssora03rdn { background-position: -303px -33px; }
+
+#slider1_container{background:#FDD12F}
+.sliderImage{  
+	margin:20px;
+
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 0px solid #c4c4c4; 
+	background:#fff;
+		
+-webkit-box-shadow: -2px 2px 6px 0px rgba(50, 50, 50, 0.24);
+-moz-box-shadow:    -2px 2px 6px 0px rgba(50, 50, 50, 0.24);
+box-shadow:         -2px 2px 6px 0px rgba(50, 50, 50, 0.24);
+		
+	}
+.sliderImage img{  
+	position: relative;
+	border: 7px solid #fff;
+    padding: 0px;
+    margin: 0px;
+	}
+.sliderCaption{
+
+    position: absolute;
+	bottom: 2px; 
+	left: 7px; 
+}
+.ts-language-widget{
+    float: right;
+    right: 0;
+    position: absolute;
+	font-size: 9px;
+}
+.footer h4 a {color:#000;}
+.artcls .media{
+	border: 1px solid #F2F2F2; 
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-bottom:10px;
+}
+.artcls .media-left{
+	padding:6px;
+}
+.artcls .media-body{
+	padding:10px 0px 0px 10px;
+}
+
+.artcls .media-left,.artcls .media-body{
+	float:left;
+}
